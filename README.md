@@ -1,13 +1,13 @@
 # SuperClaude – Development Framework for Claude Code
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Version](https://img.shields.io/badge/version-2.0.0-blue.svg)](https://github.com/NomenAK/SuperClaude)
+[![Version](https://img.shields.io/badge/version-2.0.1-blue.svg)](https://github.com/NomenAK/SuperClaude)
 [![GitHub issues](https://img.shields.io/github/issues/NomenAK/SuperClaude)](https://github.com/NomenAK/SuperClaude/issues)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/NomenAK/SuperClaude/blob/master/CONTRIBUTING.md)
 
 **A configuration framework that enhances Claude Code with specialized commands, cognitive personas, and development methodologies.**
 
-## 🚀 Version 2.0 Update
+## 🚀 Version 2.0.1 Update
 
 IMPORTANT: Start Fresh by removing old files and dir in .claude (RULES.md MCP.md PERSONAS.md CLAUDE.md and /commands dir)
 
@@ -39,10 +39,11 @@ SuperClaude enhances Claude Code with:
 - **Evidence-Based Methodology** encouraging documentation
 - **MCP Integration** with Context7, Sequential, Magic, Puppeteer
 - **Git Checkpoint Support** for safe experimentation
+- **Introspection Mode** for framework improvement and troubleshooting
 
 ## 🚀 Installation
 
-### Enhanced Installer v2.0
+### Enhanced Installer v2.0.1
 The installer provides various options:
 
 ```bash
@@ -60,7 +61,7 @@ cd SuperClaude
 ./install.sh --log install.log        # Log all operations
 ```
 
-**v2 Installer Features:**
+**v2.0.1 Installer Features:**
 - 🔄 **Update Mode**: Preserves customizations while updating
 - 👁️ **Dry Run**: Preview changes before applying
 - 💾 **Smart Backups**: Automatic backup with timestamping
@@ -82,9 +83,9 @@ Switch between different approaches with persona flags:
 /troubleshoot --prod --persona-analyzer # Root cause analysis approach
 ```
 
-**v2 Update**: All 9 personas are now universal flags, available on every command for consistent access to specialized approaches.
+**v2.0.1 Update**: All 9 personas are now universal flags, available on every command for consistent access to specialized approaches.
 
-### ⚡ **18 Commands**
+### ⚡ **19 Commands**
 Development lifecycle coverage:
 
 **Development Commands**
@@ -96,6 +97,7 @@ Development lifecycle coverage:
 
 **Analysis & Quality**
 ```bash
+/review --quality --evidence --persona-qa     # AI-powered code review
 /analyze --architecture --seq   # System analysis
 /troubleshoot --prod --five-whys # Issue resolution
 /improve --performance --iterate # Optimization
@@ -141,6 +143,13 @@ SuperClaude's @include template system helps manage token usage:
 /test --integration --e2e --pup                             # Validation
 ```
 
+### Framework Troubleshooting & Improvement
+```bash
+/troubleshoot --introspect                                  # Debug SuperClaude behavior
+/analyze --introspect --seq                                 # Analyze framework patterns
+/improve --introspect --uc                                  # Optimize token usage
+```
+
 ### Full-Stack Feature Development
 ```bash
 /build --react --magic --watch --persona-frontend           # UI development
@@ -176,6 +185,18 @@ SuperClaude's @include template system helps manage token usage:
 /troubleshoot --ultrathink
 ```
 
+### Introspection Mode
+```bash
+# Enable self-aware analysis for SuperClaude improvement
+/analyze --introspect
+
+# Debug SuperClaude behavior
+/troubleshoot --introspect --seq
+
+# Optimize framework performance
+/improve --introspect --persona-performance
+```
+
 ### Token Management
 ```bash
 # Standard mode
@@ -203,7 +224,8 @@ SuperClaude encourages:
 - `/dev-setup` - Development environment setup
 - `/test` - Testing framework
 
-### Analysis & Improvement (4 Commands)
+### Analysis & Improvement (5 Commands)
+- `/review` - AI-powered code review with evidence-based recommendations
 - `/analyze` - Code and system analysis
 - `/troubleshoot` - Debugging and issue resolution
 - `/improve` - Enhancement and optimization
@@ -235,7 +257,7 @@ SuperClaude v2's architecture enables extensibility:
 - **@include System** – Template engine for configuration
 
 **🎯 Unified Command System**
-- **18 Commands** – Development lifecycle coverage
+- **19 Commands** – Development lifecycle coverage
 - **Flag Inheritance** – Universal flags on all commands
 - **Persona Integration** – 9 cognitive modes as flags
 - **Template Validation** – Reference integrity checking
@@ -339,7 +361,7 @@ SuperClaude welcomes contributions:
 
 Join the community: [Discussions](https://github.com/NomenAK/SuperClaude/discussions)
 
-## 📈 Version 2.0 Changes
+## 📈 Version 2.0.1 Changes
 
 **🎯 Architecture Improvements:**
 - **Configuration Management**: @include reference system
@@ -350,7 +372,7 @@ Join the community: [Discussions](https://github.com/NomenAK/SuperClaude/discuss
 - **Maintenance**: Centralized configuration
 
 **📊 Framework Details:**
-- **Commands**: 18 specialized commands
+- **Commands**: 19 specialized commands
 - **Personas**: 9 cognitive approaches
 - **MCP Servers**: 4 integrations
 - **Methodology**: Evidence-based approach
@@ -362,6 +384,6 @@ SuperClaude provides a structured approach to using Claude Code with specialized
 
 ---
 
-*SuperClaude v2 – Development framework for Claude Code*
+*SuperClaude v2.0.1 – Development framework for Claude Code*
 
 [⭐ Star on GitHub](https://github.com/NomenAK/SuperClaude) | [💬 Discussions](https://github.com/NomenAK/SuperClaude/discussions) | [🐛 Report Issues](https://github.com/NomenAK/SuperClaude/issues)

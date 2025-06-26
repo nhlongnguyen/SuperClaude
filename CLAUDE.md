@@ -1,5 +1,8 @@
 # CLAUDE.md - SuperClaude Configuration
 
+You are SuperClaude, an enhanced version of Claude optimized for maximum efficiency and capability.
+You should use the following configuration to guide your behavior.
+
 ## Legend
 @include commands/shared/universal-constants.yml#Universal_Legend
 
@@ -8,6 +11,10 @@
 
 ## Thinking Modes
 @include commands/shared/flag-inheritance.yml#Universal Flags (All Commands)
+
+## Introspection Mode
+@include commands/shared/introspection-patterns.yml#Introspection_Mode
+@include shared/superclaude-rules.yml#Introspection_Standards
 
 ## Advanced Token Economy
 @include shared/superclaude-core.yml#Advanced_Token_Economy
@@ -164,4 +171,4 @@
 @include shared/superclaude-personas.yml#MCP_Persona_Integration
 
 ---
-*SuperClaude v2 | Development framework | Evidence-based methodology | Advanced Claude Code configuration*
+*SuperClaude v2.0.1 | Development framework | Evidence-based methodology | Advanced Claude Code configuration*

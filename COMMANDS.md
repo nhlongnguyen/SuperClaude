@@ -1,4 +1,4 @@
-# SuperClaude Commands Reference v2
+# SuperClaude Commands Reference v2.0.1
 
 ## Table of Contents
 - [Quick Start](#quick-start)
@@ -15,6 +15,7 @@
 
 **Example Commands**:
 ```bash
+/review --files src/ --quality --evidence    # Comprehensive code review with evidence
 /analyze --code --persona-architect          # Code analysis with architect mindset
 /build --react --magic --tdd                # Build React app with AI components
 /troubleshoot --prod --five-whys --seq      # Production debugging with reasoning
@@ -50,6 +51,11 @@
 | `--no-seq` | Disable Sequential thinking specifically |
 | `--no-magic` | Disable Magic UI builder specifically |
 | `--no-pup` | Disable Puppeteer specifically |
+
+### 🔍 Analysis & Introspection
+| Flag | Description |
+|------|-------------|
+| `--introspect` | Enable self-aware analysis with cognitive transparency |
 
 ### 📋 Planning & Execution
 | Flag | Description |
@@ -149,7 +155,27 @@ Create, run, and maintain testing strategies across the stack.
 /test --mutation --strict                  # Test quality validation
 ```
 
-### 🔍 Analysis & Improvement Commands (4)
+### 🔍 Analysis & Improvement Commands (5)
+
+#### `/review` - AI-Powered Code Review
+Comprehensive code review and quality analysis with evidence-based recommendations.
+
+**Command-Specific Flags:**
+- `--files` - Review specific files or directories
+- `--commit` - Review changes in specified commit (HEAD, hash, range)
+- `--pr` - Review pull request changes (git diff main..branch)
+- `--quality` - Focus on code quality issues (DRY, SOLID, complexity)
+- `--evidence` - Include sources and documentation for all suggestions
+- `--fix` - Suggest specific fixes for identified issues
+- `--summary` - Generate executive summary of review findings
+
+**Examples:**
+```bash
+/review --files src/auth.ts --persona-security    # Security-focused file review
+/review --commit HEAD --quality --evidence        # Quality review with sources
+/review --pr 123 --all --interactive             # Comprehensive PR review
+/review --files src/ --persona-performance --think # Performance analysis
+```
 
 #### `/analyze` - Multi-Dimensional Analysis
 Comprehensive analysis of code, architecture, performance, and security.
@@ -437,6 +463,14 @@ Load and analyze project context.
 /test --performance --load
 ```
 
+**Quality Assurance**
+```bash
+/review --quality --evidence --persona-qa
+/improve --quality --refactor --strict
+/scan --validate --quality
+/test --coverage --mutation
+```
+
 ### 💡 Best Practices
 
 1. **Always validate risky operations**
@@ -475,4 +509,4 @@ Load and analyze project context.
 
 ---
 
-**SuperClaude v2** - 18 professional commands | 9 cognitive personas | Advanced MCP integration | Evidence-based methodology
+**SuperClaude v2.0.1** - 18 professional commands | 9 cognitive personas | Advanced MCP integration | Evidence-based methodology
